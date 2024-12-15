@@ -85,8 +85,7 @@ ser_inferior_latente = reducir_numeronomaestro(reducir_numeronomaestro(ser_infer
 
 
 
-    for key, value in resultados.items():
-        st.write(f"{key}: {value}")
+
 
     # Crear gráfico
     st.markdown("### Visualización de Estructura:")
