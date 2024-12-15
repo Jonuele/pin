@@ -1,7 +1,15 @@
-
+import streamlit as st
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import networkx as nx
 
+# Configuración inicial
+st.title("Aplicación de Numerología")
+st.subheader("Ingresa tu fecha de nacimiento para calcular tus números.")
+
+# Entrada del usuario
+fecha_nacimiento = st.date_input("Fecha de nacimiento", value=pd.Timestamp("2000-01-01"))
 
 fecha_nacimiento = input("Ingrese la fecha de nacimiento (YYYY-MM-DD): ")
 fecha_nacimiento = pd.to_datetime(fecha_nacimiento)
