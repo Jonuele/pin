@@ -1,8 +1,7 @@
 
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import networkx as nx
+
 
 fecha_nacimiento = input("Ingrese la fecha de nacimiento (YYYY-MM-DD): ")
 fecha_nacimiento = pd.to_datetime(fecha_nacimiento)
