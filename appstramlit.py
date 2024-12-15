@@ -115,3 +115,26 @@ if fecha_nacimiento:
     nx.draw(G, pos, with_labels=True, labels=node_labels, node_size=2000, node_color='lightblue', font_size=10,
             font_weight='bold', arrows=True)
     st.pyplot(plt)
+
+
+print('Tu Número Karma:',numero_karma)
+print('Tu Número Quien Soy:',numero_personal)
+print('Tu Número Vidas Pasadas:',numero_vida_pasada)
+print('Tu Número Camino De Vida:',numero_personalidad)
+print('Tu Número Primera Realizacion:',numero_primera_realizacion)
+print('Tu Número Segunda Realizacion:',numero_segunda_realizacion)
+print('Tu Número Tercera Realizacion:',numero_tercera_realizacion)
+print('Tu Número Cuarta Realizacion:',numero_cuarta_realizacion)
+print('Tu Número Sexto Sentido:',numero_subconsciente)
+print('Tu Número Numero Del Inconsciente o De La Pareja:',numero_inconsciente)
+print('Tu Número Meta 1:',numero_meta1)
+print('Tu Número Meta 2:',numero_meta2)
+print('Tu Número Meta 3:',numero_meta3)
+print('Tu Número Meta 4:',numero_meta4)
+print('Tu Número Subconsciente Negativo:',numero_inconsciente_negativo)
+print('Tu Número Sombra:',numero_sombra)
+print('Tu Número Ser Inferior  Generado Por Herencia De Familia:',ser_inferior_heredado)
+print('Tu Número Ser Inferior Desarrollado Por Ti Mismo:',ser_inferior_consciente)
+print('Tu Número Ser Inferior Inconsciente:',ser_inferior_latente)
+
+
