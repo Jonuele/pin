@@ -125,8 +125,7 @@ if fecha_nacimiento:
         'Q': ser_inferior_heredado,
         'R': ser_inferior_consciente,
         'S': ser_inferior_latente,
-        'J': numero_inconsciente
-    }
+        'J': numero_inconsciente}
     G = nx.DiGraph()
     for nodo, valor in nodos.items():
         G.add_node(nodo, value=valor)
